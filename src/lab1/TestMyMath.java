@@ -19,6 +19,13 @@ public class TestMyMath extends MyMath {
         */
 
         //Q2
+
+        /*
+        Coming back to this as i misread the question
+        The way I would do Q2 would be same as below with the do/while
+        but instead have the number be used as a value for a switch statement
+        which has the numbers 1-100 as cases with a counter for each
+         */
         /*
         int number, counter = 0;
         String validNumbers = "";
