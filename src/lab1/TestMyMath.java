@@ -20,6 +20,29 @@ public class TestMyMath extends MyMath {
 
         //Q2
 
+//        int number;
+//        Scanner input = new Scanner(System.in);
+//
+//        do {
+//            System.out.println("Please enter a number between 1 - 100: ");
+//            number = input.nextInt();
+//
+//            switch (number){
+//                case 1:
+//                    oneCounter++;
+//                    break;
+//                case 2:
+//                    twoCounter++;
+//                    break
+//
+//
+//
+//
+//
+//            }
+//
+//        }(while) number >= 1 && number <= 100);
+
         /*
         Coming back to this as i misread the question
         The way I would do Q2 would be same as below with the do/while
