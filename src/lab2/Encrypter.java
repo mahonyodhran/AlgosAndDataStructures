@@ -11,11 +11,14 @@ public class Encrypter {
         int paddingNeeded = 0;
 
         for (int i = 0; i < plaintext.length(); i++){
-            if (Character.isLetter(plaintext.charAt(i))){
+            if (!Character.isSpaceChar(plaintext.charAt(i))){
                 letterForNoBlanks = plaintext.charAt(i);
                 plaintextNoBlanks += letterForNoBlanks;
             }
         }
+//        System.out.println(plaintext.length());
+//        System.out.println(plaintextNoBlanks.length());
+//        System.out.println(plaintextNoBlanks);
 
         int numRows = plaintextNoBlanks.length() / numColumns;
 

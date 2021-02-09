@@ -7,14 +7,18 @@ public class Main extends Encrypter {
         System.out.println(cipher);
         System.out.println(decryptRowColumn(cipher, 4));
         System.out.println("\n");
-        System.out.println("Hello Friend");
-        String cipherTwo = encryptRowColumn("Hello Friend", 3);
-        System.out.println(cipherTwo);
-        System.out.println(decryptRowColumn(cipherTwo, 3));
-        System.out.println("\n");
-        System.out.println("Hello There");
-        String cipherThree = encryptRowColumn("Hello There", 2);
-        System.out.println(cipherThree);
-        System.out.println(decryptRowColumn(cipherThree, 2));
+//        System.out.println("Hello Friend");
+//        String cipherTwo = encryptRowColumn("Hello Friend", 3);
+//        System.out.println(cipherTwo);
+//        System.out.println(decryptRowColumn(cipherTwo, 3));
+//        System.out.println("\n");
+//        System.out.println("Hello There");
+//        String cipherThree = encryptRowColumn("Hello There", 2);
+//        System.out.println(cipherThree);
+//        System.out.println(decryptRowColumn(cipherThree, 2));
+        System.out.println("This is a longer sentance for test");
+        String cipherFour = encryptRowColumn("This Is A Longer Sentance For Test", 5);
+        System.out.println(cipherFour);
+        System.out.println(decryptRowColumn(cipherFour, 5));
     }
 }
